@@ -69,6 +69,6 @@ public class RestaGit {
 		return acumulado;
 
 	    } 
-
+// comentario para ver si me aparece en el status
 }
 
