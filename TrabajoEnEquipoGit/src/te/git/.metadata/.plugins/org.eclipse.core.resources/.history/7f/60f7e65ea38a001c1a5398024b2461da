@@ -1,0 +1,13 @@
+package TrabajosEnEquipo;
+
+public class wfafawfaw {
+	
+	double num1, num2;
+	double resultado;
+	
+	public double resta1(num1, num2) {
+		
+	}
+
+
+}
