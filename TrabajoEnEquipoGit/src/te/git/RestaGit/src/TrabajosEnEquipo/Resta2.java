@@ -1,4 +1,4 @@
-package git;
+package TrabajosEnEquipo;
 
 /**
  * Esta clase esta dedicada a implementar los metodos de resta necesarios para implementar una series de clase que compongan una calculadora.
@@ -8,8 +8,10 @@ package git;
  *
  */
 
-public class Resta {
+public class Resta2 {
 
+
+	double num1, num2;
 	double resultado;
 
 
@@ -20,11 +22,10 @@ public class Resta {
 	 * @return un numero que sera el resultado de la resta.
 	 */
 	  //Resta de dos numeros reales, tendra 2 parametros de entrada y uno de salida que sera la solucion.
-	public double resta1(double num1, double num2) {
-		
+	public double resta1(num1, num2) {
 		return resultado = num1 - num2;
 		//Inicializo a 0 para que no me de error.
-		
+		return resultado;
 		}
 	
 	/**
@@ -75,4 +76,5 @@ public class Resta {
 	    } 
 
 }
+
 
