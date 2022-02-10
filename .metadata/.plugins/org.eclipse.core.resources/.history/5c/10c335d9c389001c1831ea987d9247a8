@@ -1,0 +1,74 @@
+package git;
+
+/**
+ * Esta clase esta dedicada a implementar los mtodos de resta necesarios para implementar una series de clase que compongan una calculadora.
+ * Cada clase que compone los mï¿½todos de resta estï¿½n documentados para poder instruirse en caso de necesitar informaciï¿½n del mï¿½todo. 
+ * @author Franco Pellizzari
+ * @version version 1.0
+ *
+ */
+
+public class RestaGit {
+
+	/** Mï¿½todo que calcula la diferencia entre dos nï¿½meros reales.
+	 * La diferencia se obtiene restando los nï¿½meros en el orden que se hayan introducido.
+	 * 
+	 * @param dos nï¿½meros reales de los cuales se desea obtener la diferencia.
+	 * @return un nï¿½mero que serï¿½ el resultado de la resta.
+	 */
+	  
+	public double resta1(double numero) {
+		double resultado = 0;
+		//Inicializo a 0 para que no me de error.
+		return resultado;
+		}
+	
+	/**
+	 * Metodo que calcula la diferencia entre dos nu½meros enteros..
+	 * La diferencia se obtiene restando los nï¿½meros en el orden que se hayan introducido.
+	 * En caso de que se ingresen nï¿½meros con decimales, la clase darï¿½ error. 
+	 * @param dos nï¿½meros enteros de los cuales se desea obtener la diferencia.
+	 * @return devolverï¿½ un nï¿½mero entero que serï¿½ el resultado de la resta.
+	 */
+	public int resta2(int numero) {
+		int resultado = 0;
+				//Inicializo a 0 para que no me de error
+				return resultado; 
+	    }
+	
+	/** Mï¿½todo que calcula la diferencia entre 3 nï¿meros reales.
+	 * La diferencia se obtiene restando los nï¿½meros en el orden que se hayan introducido.
+	 * 
+	 * @param tres nï¿½meros reales de los cuales se desea obtener la diferencia.
+	 * @return un nï¿½mero que serï¿½ el resultado de la resta.
+	 */
+	  
+	public double restaVersion1(double numero) {
+		double resultado = 0;
+		//Inicializo a 0 para que no me de error
+		return resultado;
+		}
+	
+	/** 
+	 * Este mï¿½todo resta el valor inicial de la variable "acumulado" (2000). Se ingresarï¿½ un nï¿½mero real, cada vez que se ejecute el mï¿½todo
+	 * se restarï¿½ el numero ingresado al valor de la variable. Este mï¿½todo permite que el valor acumulado se guarde como una propiedad 
+	 * durante toda la clase. 
+	 * 
+	 * @param un solo nï¿½mero real que se utilizarï¿½ para restar a la variable.
+	 * 
+	 * @return devolverï¿½ el resultado de la resta cada vez que se utilice el mï¿½todo guardandose el valor tras cada resta realizada. 
+	 */
+
+	 // Este comentario es para probar Git
+	
+	public double restaValorAcumulado(double numero) {
+		// Inicializo la variable "acumulado" para que no salte ningï¿½n error. 
+		double acumulado = 2000;
+		acumulado = acumulado - numero;
+
+		return acumulado;
+
+	    } 
+
+}
+
